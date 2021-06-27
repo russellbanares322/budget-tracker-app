@@ -8,11 +8,11 @@ const ExpenseTotal = () => {
     return (total += item.cost);
   }, 0);
   return (
-    <div className="container bg-danger">
-      <div className="card">
-        <div className="card-body">
-          <span>Money spent: P{totalExpenses}</span>
-        </div>
+    <div className="container">
+      <div className="alert alert-primary" role="alert">
+        <span>
+          Money spent: <strong>₱ {totalExpenses}</strong>
+        </span>
       </div>
     </div>
   );

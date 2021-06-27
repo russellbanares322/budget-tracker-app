@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.body {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  border-radius: 60px;
+  box-shadow: 5px 10px black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button:focus {
+  outline: none;
+  border: none;
+}
+.button {
+  padding: 5px 20px 5px 20px;
+  background: #b8ff20;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+  color: #ffff;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:hover,
+.button:focus {
+  background: teal;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.App-link {
-  color: #61dafb;
+.delete {
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.cost {
+  font-size: 15px;
+}
+
+.header_text {
+  font-family: "Pacifico", cursive !important;
+  font-size: 50px !important;
 }

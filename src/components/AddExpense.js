@@ -22,11 +22,12 @@ const AddExpense = () => {
     });
   };
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 text-center">
       <form onSubmit={onSubmit}>
         <label>
-          <strong>name</strong>
+          <strong>Name</strong>
         </label>
+        <br />
         <input
           type="text"
           required="required"
@@ -36,8 +37,9 @@ const AddExpense = () => {
         <br />
         <br />
         <label>
-          <strong>cost</strong>
+          <strong>Cost</strong>
         </label>
+        <br />
         <input
           type="text"
           required="required"
@@ -45,7 +47,7 @@ const AddExpense = () => {
           onChange={(event) => setCost(event.target.value)}
         />
         <br />
-        <button className="btn btn-success" type="submit">
+        <button className="button mt-3" type="submit">
           Save
         </button>
       </form>

@@ -8,14 +8,13 @@ const Remaining = () => {
     return (total = total + item.cost);
   }, 0);
 
-  const alertType =
-    totalExpenses > budget ? "card bg-danger" : "card bg-success";
+  const alertType = totalExpenses > budget ? "alert-danger" : "alert-primary";
   return (
-    <div className={`${alertType} container`}>
-      <div className="card">
-        <div className="card-body">
-          <span>Remaining: P{budget - totalExpenses}</span>
-        </div>
+    <div className="container">
+      <div className={`alert ${alertType}`}>
+        <span>
+          Remaining: <strong>₱ {budget - totalExpenses}</strong>
+        </span>
       </div>
     </div>
   );

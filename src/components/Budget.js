@@ -4,11 +4,11 @@ import { AppContext } from "../context/AppContext";
 const Budget = () => {
   const { budget } = useContext(AppContext);
   return (
-    <div className="container bg-warning">
-      <div className="card">
-        <div className="card-body">
-          <span>Budget: P{budget}</span>
-        </div>
+    <div className="container">
+      <div className="alert alert-primary" role="alert">
+        <span>
+          Budget: <strong>₱ {budget}</strong>
+        </span>
       </div>
     </div>
   );
