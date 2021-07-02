@@ -63,3 +63,18 @@ input {
   font-family: "Pacifico", cursive !important;
   font-size: 50px !important;
 }
+
+.edit {
+  cursor: pointer;
+  margin-left: 290px;
+}
+
+span {
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .edit {
+    margin-left: 100px;
+  }
+}
