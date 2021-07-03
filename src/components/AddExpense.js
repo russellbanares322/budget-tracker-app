@@ -47,7 +47,7 @@ const AddExpense = () => {
           onChange={(event) => setCost(event.target.value)}
         />
         <br />
-        <button className="button mt-3" type="submit">
+        <button className="button mt-3 mb-3" type="submit">
           Save
         </button>
       </form>
