@@ -77,3 +77,9 @@ span {
     margin-left: 100px;
   }
 }
+
+.logo {
+  height: 70px;
+  width: 80px;
+  margin-left: 10px;
+}
