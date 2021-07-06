@@ -11,7 +11,7 @@ const App = () => {
   return (
     <AppProvider>
       <div className="App container body">
-        <h1 className="mt-5 mb-5 text-center pt-5 text-white header_text">
+        <h1 className="mt-2 mb-5 text-center pt-5 text-white header_text">
           Budget Tracker
         </h1>
         <div className="row">
@@ -36,7 +36,7 @@ const App = () => {
             <AddExpense />
           </div>
         </div>
-        <div className="col-sm-12 col-lg-12  mt-5 pb-5">
+        <div className="col-sm-12 col-lg-12  mt-5 pb-5 mb-4">
           <h1 className="ml-5 mt-3 text-center text-white expense border-top pt-4">
             <u>Expenses</u>
           </h1>
