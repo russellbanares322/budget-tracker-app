@@ -11,7 +11,7 @@ const ExpenseTotal = () => {
     <div className="container">
       <div className="alert alert-primary" role="alert">
         <span>
-          Money spent: <strong>₱ {totalExpenses}</strong>
+          Money spent: <strong className="total">₱{totalExpenses}</strong>
         </span>
       </div>
     </div>

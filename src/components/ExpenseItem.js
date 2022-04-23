@@ -15,7 +15,7 @@ const ExpenseItem = (props) => {
       <strong>{props.name}</strong>
       <div>
         <span className="badge badge-primary pt-2 pb-2 pl-4 pr-4">
-          <strong className="cost">₱ {props.cost}</strong>
+          <strong className="total">₱{props.cost}</strong>
         </span>
         <i
           className="fas fa-times ml-4 delete fa-2px"

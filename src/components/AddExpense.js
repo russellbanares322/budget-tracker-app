@@ -6,7 +6,6 @@ const AddExpense = () => {
   const { dispatch } = useContext(AppContext);
   const [name, setName] = useState("");
   const [cost, setCost] = useState("");
-
   const onSubmit = (event) => {
     event.preventDefault();
 
@@ -21,6 +20,7 @@ const AddExpense = () => {
       payload: expense,
     });
   };
+
   return (
     <div className="container mt-4 text-center">
       <form onSubmit={onSubmit}>

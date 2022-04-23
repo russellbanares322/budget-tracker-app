@@ -18,6 +18,7 @@ const Budget = () => {
     });
     setIsEditing(false);
   };
+
   return (
     <div className="container">
       <div className="alert alert-primary" role="alert">

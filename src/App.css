@@ -9,6 +9,7 @@
     #a8eb12
   );
   box-shadow: 5px 10px black;
+  margin-top: 30px;
 }
 
 input {
@@ -54,8 +55,8 @@ input {
   transform: scale(1.1);
 }
 
-.cost {
-  font-size: 15px;
+.total {
+  font-size: 25px;
 }
 
 .header_text {
