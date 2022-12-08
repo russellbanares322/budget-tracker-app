@@ -13,8 +13,10 @@ const Remaining = () => {
     <div className="container">
       <div className={`alert ${alertType}`}>
         <span>
-          Remaining:{" "}
-          <strong className="total">₱{budget - totalExpenses}</strong>
+          Remaining:
+          <strong className="total">
+            ₱{[budget - totalExpenses].toLocaleString()}
+          </strong>
         </span>
       </div>
     </div>

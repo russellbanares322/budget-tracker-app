@@ -5,7 +5,8 @@ import { v4 as uuidv4 } from "uuid";
 const AddExpense = () => {
   const { dispatch } = useContext(AppContext);
   const [name, setName] = useState("");
-  const [cost, setCost] = useState("");
+  const [cost, setCost] = useState(0);
+
   const onSubmit = (event) => {
     event.preventDefault();
 
@@ -19,6 +20,8 @@ const AddExpense = () => {
       type: "ADD_EXPENSE",
       payload: expense,
     });
+    setName("");
+    setCost("");
   };
 
   return (
@@ -33,6 +36,7 @@ const AddExpense = () => {
           required="required"
           value={name}
           onChange={(event) => setName(event.target.value)}
+          autoFocus
         />
         <br />
         <br />
@@ -41,13 +45,19 @@ const AddExpense = () => {
         </label>
         <br />
         <input
-          type="text"
+          type="number"
           required="required"
           value={cost}
           onChange={(event) => setCost(event.target.value)}
         />
         <br />
-        <button className="button mt-3 mb-3" type="submit">
+        <button
+          className={`${
+            !name || !cost ? "button_disabled mt-3 mb-3" : "button mt-3 mb-3"
+          }`}
+          type="submit"
+          disabled={!name || !cost ? true : false}
+        >
           Save
         </button>
       </form>

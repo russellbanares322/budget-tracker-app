@@ -5,7 +5,6 @@ import ExpenseTotal from "./components/ExpenseTotal";
 import ExpenseList from "./components/ExpenseList";
 import AddExpense from "./components/AddExpense";
 import { AppProvider } from "./context/AppContext";
-import Logo from "./image/russlogo.png";
 
 const App = () => {
   return (

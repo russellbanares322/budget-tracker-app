@@ -3,13 +3,13 @@ import React from "react";
 const ViewBudget = (props) => {
   return (
     <>
-      <span>
-        Budget: <strong className="total">₱{props.budget}</strong>
-      </span>
-      <i
-        className="far fa-edit text-right edit fa-2x fa-align-right"
-        onClick={props.handleEditClick}
-      ></i>
+      <div>
+        <span className="total_container">
+          Budget:
+          <strong className="total">₱{props.budget}</strong>
+        </span>
+        <i className="far fa-edit edit fa-2x" onClick={props.handleEditClick} />
+      </div>
     </>
   );
 };

@@ -1,5 +1,9 @@
 import { createContext, useReducer } from "react";
-import { v4 as uuidv4 } from "uuid";
+
+const initialState = {
+  budget: 0,
+  expenses: [],
+};
 
 const AppReducer = (state, action) => {
   switch (action.type) {
@@ -24,11 +28,6 @@ const AppReducer = (state, action) => {
     default:
       return state;
   }
-};
-
-const initialState = {
-  budget: 0,
-  expenses: [],
 };
 
 export const AppContext = createContext();

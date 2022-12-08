@@ -20,12 +20,15 @@ const Budget = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="alert alert-primary" role="alert">
         {isEditing ? (
           <EditBudget handleSaveClick={handleSaveClick} budget={budget} />
         ) : (
-          <ViewBudget handleEditClick={handleEditClick} budget={budget} />
+          <ViewBudget
+            handleEditClick={handleEditClick}
+            budget={budget.toLocaleString()}
+          />
         )}
       </div>
     </div>
