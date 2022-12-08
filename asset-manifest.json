@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/budget-tracker-app/static/css/main.0a8a86a9.chunk.css",
-    "main.js": "/budget-tracker-app/static/js/main.31db3141.chunk.js",
-    "main.js.map": "/budget-tracker-app/static/js/main.31db3141.chunk.js.map",
+    "main.css": "/budget-tracker-app/static/css/main.2be61c24.chunk.css",
+    "main.js": "/budget-tracker-app/static/js/main.138a3f05.chunk.js",
+    "main.js.map": "/budget-tracker-app/static/js/main.138a3f05.chunk.js.map",
     "runtime-main.js": "/budget-tracker-app/static/js/runtime-main.72a62e21.js",
     "runtime-main.js.map": "/budget-tracker-app/static/js/runtime-main.72a62e21.js.map",
     "static/css/2.2111db8b.chunk.css": "/budget-tracker-app/static/css/2.2111db8b.chunk.css",
-    "static/js/2.d590c306.chunk.js": "/budget-tracker-app/static/js/2.d590c306.chunk.js",
-    "static/js/2.d590c306.chunk.js.map": "/budget-tracker-app/static/js/2.d590c306.chunk.js.map",
+    "static/js/2.b82fb1d4.chunk.js": "/budget-tracker-app/static/js/2.b82fb1d4.chunk.js",
+    "static/js/2.b82fb1d4.chunk.js.map": "/budget-tracker-app/static/js/2.b82fb1d4.chunk.js.map",
     "index.html": "/budget-tracker-app/index.html",
     "static/css/2.2111db8b.chunk.css.map": "/budget-tracker-app/static/css/2.2111db8b.chunk.css.map",
-    "static/css/main.0a8a86a9.chunk.css.map": "/budget-tracker-app/static/css/main.0a8a86a9.chunk.css.map",
-    "static/js/2.d590c306.chunk.js.LICENSE.txt": "/budget-tracker-app/static/js/2.d590c306.chunk.js.LICENSE.txt",
-    "static/media/all.css": "/budget-tracker-app/static/media/fa-solid-900.eb1e9adc.woff2",
-    "static/media/russlogo.7653d4d3.png": "/budget-tracker-app/static/media/russlogo.7653d4d3.png"
+    "static/css/main.2be61c24.chunk.css.map": "/budget-tracker-app/static/css/main.2be61c24.chunk.css.map",
+    "static/js/2.b82fb1d4.chunk.js.LICENSE.txt": "/budget-tracker-app/static/js/2.b82fb1d4.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/budget-tracker-app/static/media/fa-solid-900.eb1e9adc.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.72a62e21.js",
     "static/css/2.2111db8b.chunk.css",
-    "static/js/2.d590c306.chunk.js",
-    "static/css/main.0a8a86a9.chunk.css",
-    "static/js/main.31db3141.chunk.js"
+    "static/js/2.b82fb1d4.chunk.js",
+    "static/css/main.2be61c24.chunk.css",
+    "static/js/main.138a3f05.chunk.js"
   ]
 }
